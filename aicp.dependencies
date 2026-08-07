@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "aicp",
+    "repository":  "AICP/device_google_zumapro",
+    "target_path": "device/google/zumapro",
+    "branch":      "w16.2"
+  },
+  {
+    "remote":      "aicp",
+    "repository":  "LineageOS/android_device_google_caimito-kernels",
+    "target_path": "device/google/caimito-kernels",
+    "branch":      "lineage-23.2"
+  }
+]
