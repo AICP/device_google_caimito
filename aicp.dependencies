@@ -15,5 +15,10 @@
     "repository":  "AICP/packages_apps_PixelParts",
     "target_path": "packages/apps/PixelParts",
     "branch":      "w16.2"
+  },
+  {
+    "repository":  "AICP/packages_apps_ColumbusService",
+    "target_path": "packages/apps/ColumbusService",
+    "branch":      "w16.2"
   }
 ]

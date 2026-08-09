@@ -16,3 +16,7 @@ BOARD_SEPOLICY_DIRS += packages/apps/PixelParts/sepolicy
 # Display
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/permissions_com.android.pixeldisplayservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.pixeldisplayservice.xml
+
+# Quick Tap
+PRODUCT_PACKAGES += \
+    ColumbusService
