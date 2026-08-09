@@ -27,4 +27,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=google/komodo/komodo:16/BP4A.260205.002/14624737:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
+# AICP Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Siluxsept (Ron H.)"
+
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
