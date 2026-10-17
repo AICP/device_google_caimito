@@ -14,6 +14,9 @@ VENDOR_PATH := vendor/google/tokay
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 $(call inherit-product, $(DEVICE_PATH)/aicp.mk)
 
+# TWRP Support
+-include device/twrp/tokay/twrp.mk
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9

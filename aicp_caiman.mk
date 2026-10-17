@@ -14,6 +14,9 @@ VENDOR_PATH := vendor/google/caiman
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 $(call inherit-product, $(DEVICE_PATH)/aicp.mk)
 
+# TWRP Support
+-include device/twrp/caiman/twrp.mk
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 9 Pro
